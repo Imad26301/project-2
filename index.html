@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <h1>Banking App</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="pages/dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="pages/accounts.html">Rekeningen</a></li>
+                <li><a href="pages/transfers.html">Overschrijvingen</a></li>
+                <li><a href="pages/profile.html">Profiel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="welcome-section">
+            <h2>Welkom bij uw Banking App</h2>
+            <p>Beheer uw financiën op een veilige en eenvoudige manier.</p>
+        </section>
+
+        <section class="quick-actions">
+            <h3>Snelle Acties</h3>
+            <div class="action-buttons">
+                <button id="newTransfer">Nieuwe Overschrijving</button>
+                <button id="checkBalance">Saldo Bekijken</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Banking App - Alle rechten voorbehouden</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

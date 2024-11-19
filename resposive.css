@@ -1,0 +1,45 @@
+/* Tablet Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    .welcome-section {
+        padding: 20px 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
